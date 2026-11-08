@@ -45,6 +45,20 @@
 	<link href="/apple-touch-icon.png" rel="apple-touch-icon">
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
 	<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+	<link href="https://unpkg.com/lenis@1.3.27/dist/lenis.css" rel="stylesheet">
+	<script src="https://unpkg.com/lenis@1.3.27/dist/lenis.min.js"></script>
+	<script>
+		new Lenis({
+			autoRaf: true,
+			autoToggle: true,
+			anchors: true,
+			allowNestedScroll: true,
+			naiveDimensions: true,
+			stopInertiaOnNavigate: true
+		})
+	</script>
+
+
 	@livewireStyles
 </head>
 
