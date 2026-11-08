@@ -1,14 +1,7 @@
 /.phpunit.cache
 /node_modules
-/public/build
-/public/css/filament
-/public/fonts-manifest.dev.json
-/public/fonts/filament
-/public/hot
-/public/js/filament
 /storage/*.key
 /storage/pail
-/vendor
 .env
 .env.backup
 .env.production
