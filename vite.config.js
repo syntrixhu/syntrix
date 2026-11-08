@@ -2,9 +2,6 @@ import tailwindcss from "@tailwindcss/vite";
 import laravel from "laravel-vite-plugin";
 import { bunny } from "laravel-vite-plugin/fonts";
 import { defineConfig, lazyPlugins } from "vite-plus";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init({});
 
 export default defineConfig({
     plugins: lazyPlugins(() => [
